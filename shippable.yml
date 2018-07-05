@@ -195,6 +195,7 @@ jobs:
   ## - multiple tasks
   - name: host_multiple_tasks
     type: runSh
+    allowPublicAccess: true
     runtime:
       container: false
     steps:
